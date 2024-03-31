@@ -1,0 +1,53 @@
+Buatlah sebuah program c++ yang berjalan secara berkelanjutan menggunakan loop, sehingga tidak perlu dijalankan ulang dari awal. Program c++ ini untuk menyimpan data berupa angka atau string. Selain itu, pengguna harus dapat mencari data yang telah dimasukkan sebelumnya. masukan dan pencarian data dilakukan oleh pengguna melalui terminal. Program harus dilengkapi dengan algoritma penyortiran dan pencarian sesuai pilihan kalian, dan program harus bisa dapat dihentikan sesuai permintaan pengguna. agar pengguna dapat memasukkan beberapa informasi ke dalam terminal dan pengguna dapat mencari kata kunci informasi yang mereka masukkan sebelumnya. program nantinya akan menampilkan Nama Buku, deskripsi buku, penerbit, tahun trbit dan isbn. unruk memenuhi program digunakan dengan mencarinya menggunakan key concep yaitu :
+1. Penyimpanan Data
+• : Semua informasi terkait buku seperti nama, deskripsi, dan detail lainnya harus disimpan dalam array yang terpisah untuk masing-masing jenis informasi. Misalnya, satu array untuk nama buku, satu array lagi untuk deskripsi buku, dan seterusnya.
+
+2. Pemecahan Kata Kunci dan Penyimpanan
+• : Saat pengguna memasukkan informasi atau pencarian, string yang dimasukkan (contoh: "Holliday in Hell") harus dipecah menjadi kata-kata individu (tokens) seperti ["Holliday", "in", "Hell"].
+• : Kata-kata yang telah dipecah tersebut kemudian disimpan dalam sebuah array dua dimensi, dimana setiap baris mewakili satu set kata kunci untuk satu entri informasi. Array ini dapat diberi nama semisal keywords atau tags.
+
+3. Penyortiran Data
+• : Kalian bebas memilih metode penyortiran untuk array kata kunci (tags, keywords) maupun array informasi utama (nama buku, deskripsi, dll). Penyortiran bisa dilakukan berdasarkan substring pertama dalam array dua dimensi (misalnya, secara ascending [asc] atau descending [dsc]).
+• : Penting untuk memastikan bahwa ketika urutan array kata kunci diubah, urutan array informasi lainnya juga diubah secara bersamaan agar akses ke informasi tetap konsisten. Ini dapat dilakukan dengan menggunakan pointer atau referensi yang menghubungkan antar array.
+4. Pencarian Data
+• : Gunakan algoritma pencarian untuk menemukan kata kunci yang dimasukkan pengguna dalam terminal. Pecah string input menjadi substring, kemudian bandingkan setiap substring tersebut dengan kata kunci yang tersimpan dalam array tags, keywords, dll.
+• : Jika semua kata kunci dari input pengguna ditemukan dalam array, tampilkan informasi terkait. Jika ada kata kunci yang tidak ditemukan, pencarian bisa dilanjutkan atau memberikan feedback bahwa beberapa kata kunci tidak ditemukan.
+> Hal yang wajib ada di dalam program:
+1. Array
+2. Stack atau Queue
+3. Looping
+4. Algoritma Penyortiran
+5. Algoritma Pencarian
+ atau juga bisa di singkat dengan membuat Program Perpustakaan Sederhana dengan C++
+Fitur:
+Menyimpan data buku (nama, deskripsi, penerbit, tahun terbit, ISBN)
+Mencari data buku berdasarkan kata kunci
+Menampilkan daftar buku yang telah disimpan
+Menyimpan data dalam array
+Algoritma penyortiran dan pencarian (Bubble Sort dan Linear Search)
+Looping (while loop)
+Stack (opsional)
+Queue (opsional)
+Struct (opsional)
+dan buku yang ingin dimasukkan yaitu:
+1. judul buku : BJ Habibie, The Power Of Ideas
+Deskripsi Buku : “Untuk menjadi manusia jenius. Jagalah kemampuan otak dengan banyak minum air. Saya banyak minum air.”
+Gagasan, pencerahan, dan kiat inspirasi Habibie telah banyak menginspirasi masyarakat dan bangsa, sekaligus memperlihatkan the power of ideas. Semuanya telah membentuk dan memperkaya peradaban bangsa. Kuncinya terletak pada semua gagasan yang pernah disampaikannya, bukanlah terbatas sebagai orasi dan catatan di atas kertas belaka, tetapi sudah dijalani, ditunjukkan, dan dibuktikannya.
+Penulis : A. Makmur Makka
+Penerbit : Republika Penerbit
+tahun terbit: 14 oktober 2018
+ISBN : 9786025734311
+2. judul buku: Why? People - Albert Einstein",
+         "“Orang yang tidak pernah berbuat salah adalah orang yang tidak pernah melakukan sesuatu.” (Albert Einstein)",
+         "JYearimdang",
+         "Elex Media Komputindo",
+         "31 Juli 2016",
+         "9786020290959"
+ISBN: 9786023913657
+3. judul buku: Stephen Hawking Kiamat 100 Tahun Lagi?
+penulis buku: Nina Artant Artanti
+Deskripsi Buku: Stephen Hawking merupakan fisikawan teoritis brilian. Ia merupakan seorang fisikawan teoretis, kosmolog, penulis, dan Direktur Riset di Pusat Kosmologi Teoretis di Universitas Cambridge; yang terkenal akan karyanya prediksi teoritis bahwa lubang hitam memancarkan radiasi, yang dikenal dengan radiasi Hawking. uku ini mengungkap perjalanan hidup sang legenda fisika yang kerap melontarkan pernyataan kontroversi itu. Apa saja sumbangan yang telah ia berikan kepada dunia? Lalu bagaimana juga dengan prediksinya bahwa umur Bumi hanya bertahan 100 tahun lagi sebelum kemudian hancur? Bagaimana jika prediksinya benar-benar terjadi?
+penerbit: Gerrmedia Pressindo
+tahun terbit: 20 nov  2017
+ISBN : ISBN
+9789799116192
